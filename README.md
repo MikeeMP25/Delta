@@ -1,2 +1,4 @@
 # Delta
-Esta desarrollado en python con el framework Django
+"Bienvenidos". 
+
+Curso de Django
