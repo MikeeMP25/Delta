@@ -9,6 +9,7 @@ django-ckeditor = "*"
 pillow = "*"
 pylint = "*"
 pylint-django = "*"
+pylint-celery = "*"
 
 [dev-packages]
 

@@ -13,9 +13,16 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+#ES EL FICHERO ENCARGADO DE LAS DIRECCIONES DE LA WEB 
+#LAS QUE ESCRIBIMOS EN LA BARRA DEL NAVEGADOR 
 from django.contrib import admin
 from django.urls import path
+from core import views
 
+#aqui le indicamos la direccion de la vista
 urlpatterns = [
+    path('',views.home,name="Inicio"),
+    path('about/',views.about,name="about"),
     path('admin/', admin.site.urls),
+    
 ]
