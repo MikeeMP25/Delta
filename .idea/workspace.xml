@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbb8285c-a89b-4cae-9cd2-3866e6b07712" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/.idea/webpersonal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/.idea/webpersonal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/webpersonal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/webpersonal/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/webpersonal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/webpersonal/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/webpersonal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/webpersonal/urls.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IuzIf150ZtVIT3msbGf3oc3or7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/Desarrollo/Devolopment/python/pokemon/Delta/webpersonal/core",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webpersonal/core" />
+      <recent name="$PROJECT_DIR$/webpersonal/core/migrations" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbb8285c-a89b-4cae-9cd2-3866e6b07712" name="Changes" comment="" />
+      <created>1671046177723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671046177723</updated>
+      <workItem from="1671046180667" duration="161000" />
+      <workItem from="1671046791911" duration="1206000" />
+      <workItem from="1671053689016" duration="10380000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
