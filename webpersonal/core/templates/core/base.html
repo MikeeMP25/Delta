@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %} | Mi Blog Personal</title>
+</head>
+<body>
+     <!-- Cabecera & menú-->
+     <h1>Welcome</h1>
+     <!-- Usaremos templead url tag para hacerlo mas dinamico-->
+     <ul>
+         <li><a href="{% url 'Inicio'%}">Inicio</a></li>
+         <li><a href="{% url 'About'%}">Acerca de</a></li>
+         <li><a href="{% url 'Portafolio'%}">Portfolio</a></li>
+         <li><a href="{% url 'Contacto'%}">Contacto</a></li>
+         <!-- url  "el nombre plantilla name= de urls.py" -->
+     </ul>
+     <!--Contenido
+     Esto es un templaed tak una etiqueta de templead
+     -->
+     {% block content %}{% endblock %}
+</body>
+</html>
