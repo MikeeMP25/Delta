@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbb8285c-a89b-4cae-9cd2-3866e6b07712" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/.idea/webpersonal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/.idea/webpersonal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/webpersonal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/webpersonal/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/webpersonal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/webpersonal/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/webpersonal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/webpersonal/urls.py" afterDir="false" />
-    </list>
+    <list default="true" id="bbb8285c-a89b-4cae-9cd2-3866e6b07712" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +46,7 @@
       <updated>1671046177723</updated>
       <workItem from="1671046180667" duration="161000" />
       <workItem from="1671046791911" duration="1206000" />
-      <workItem from="1671053689016" duration="10380000" />
+      <workItem from="1671053689016" duration="10491000" />
     </task>
     <servers />
   </component>
