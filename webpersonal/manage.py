@@ -4,7 +4,7 @@ import os
 import sys
 
 
-#Se utiliza para gestionar todo el proyecto desde la terminal 
+# Se utiliza para gestion el proyecto desde la terminal
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'webpersonal.settings')
@@ -18,6 +18,8 @@ def main():
         ) from exc
     execute_from_command_line(sys.argv)
 
-#print("nombre",__name__)
+
+# print("nombre",__name__)
+
 if __name__ == '__main__':
     main()
