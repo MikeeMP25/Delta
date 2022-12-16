@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb8285c-a89b-4cae-9cd2-3866e6b07712" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpersonal/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/portfolio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Delta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Delta.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/.idea/webpersonal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/.idea/webpersonal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/core/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/webpersonal/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/webpersonal/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpersonal/core/static/core/img/institución.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpersonal_Frontend/webpersonal_Frontend/index_fusion.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/core/templates/core/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/core/templates/core/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/core/templates/core/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/core/templates/core/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/core/templates/core/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpersonal/webpersonal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/webpersonal/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpersonal/webpersonal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/webpersonal/urls.py" afterDir="false" />
     </list>
@@ -37,20 +34,138 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Desarrollo/Devolopment/python/pokemon/Delta/webpersonal/core&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/Desarrollo/Devolopment/python/pokemon/Delta/webpersonal/core/static/core/img",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webpersonal/core/static/core/img" />
+      <recent name="$PROJECT_DIR$/webpersonal_Frontend/webpersonal_Frontend" />
       <recent name="$PROJECT_DIR$/webpersonal/core" />
       <recent name="$PROJECT_DIR$/webpersonal/core/migrations" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="Delta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="Delta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Delta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="Delta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Delta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="Delta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="Delta" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,6 +179,8 @@
       <workItem from="1671046791911" duration="1206000" />
       <workItem from="1671053689016" duration="10491000" />
       <workItem from="1671065691688" duration="319000" />
+      <workItem from="1671117116242" duration="237000" />
+      <workItem from="1671117385650" duration="15956000" />
     </task>
     <servers />
   </component>

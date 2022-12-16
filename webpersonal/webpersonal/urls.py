@@ -19,6 +19,9 @@ from django.contrib import admin
 from django.urls import path
 from core import views
 
+#vamos a configurar a django de forma directa para que cargue la imagen
+from django.conf import settings
+
 # aqui le indicamos la direccion de la vista
 urlpatterns = [
     path('', views.home, name="Inicio"),
@@ -26,5 +29,8 @@ urlpatterns = [
     path('portfolio/', views.portfolio, name="Portafolio"),
     path('contact/', views.contact, name="Contacto"),
     path('admin/', admin.site.urls),
-    
 ]
+
+if settings.DEBUG:
+    from django.conf.urls.static import static
+    urlpatterns +=static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
