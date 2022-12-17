@@ -17,20 +17,21 @@ Including another URLconf
 # LAS QUE ESCRIBIMOS EN LA BARRA DEL NAVEGADOR
 from django.contrib import admin
 from django.urls import path
-from core import views
+from core import views as core_views
+from portfolio import views as portfolio_views
 
-#vamos a configurar a django de forma directa para que cargue la imagen
+# vamos a configurar a django de forma directa para que cargue la imagen
 from django.conf import settings
 
 # aqui le indicamos la direccion de la vista
 urlpatterns = [
-    path('', views.home, name="Inicio"),
-    path('about-me/', views.about, name="About"),
-    path('portfolio/', views.portfolio, name="Portafolio"),
-    path('contact/', views.contact, name="Contacto"),
+    path('', core_views.home, name="Inicio"),
+    path('about-me/', core_views.about, name="About"),
+    path('portfolio/', portfolio_views.portfolio, name="Portafolio"),
+    path('contact/', core_views.contact, name="Contacto"),
     path('admin/', admin.site.urls),
 ]
 
 if settings.DEBUG:
     from django.conf.urls.static import static
-    urlpatterns +=static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

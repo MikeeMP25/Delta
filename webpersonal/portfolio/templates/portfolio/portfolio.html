@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Portafolio{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/portfolio-bg.jpg' %}{% endblock %}
+
+{% block headers%}
+  <h1>Portafolio</h1>
+  <span class="subheading">Currículo</span>
+{% endblock %}
+
+<!--
+aqui construimos el html de portfolio junto con los argumentos de entrada
+ QuerySET
+-->
+
+{% block content %}
+    {%  for projectx in project %}
+    <!--Proyectos que ai en la base de datos y lo mostramos en la lista -->
+	<div class="row project">
+		<div class="col-lg-3 col-md-4 offset-lg-1">
+			      <img class="img-fluid" src="{{ projectx.image.url }}" alt="">
+		</div>
+		<div class="col-lg-7 col-md-8">
+	      		<h2 class="section-heading title">{{ projectx.title }}</h2>
+	          <p>{{ projectx.description }}</p>
+		</div>
+	</div>
+	{% endfor %}
+{% endblock %}

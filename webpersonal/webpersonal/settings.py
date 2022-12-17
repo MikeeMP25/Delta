@@ -122,10 +122,10 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-#los ficheros media archivos que ingresa el usuario
+# los ficheros media archivos que ingresa el usuario
 
-MEDIA_URL='/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR,"media")
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 
 # Default primary key field type
