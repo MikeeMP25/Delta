@@ -25,7 +25,7 @@ from company import views as company_views
 # aqui instanciamos la clase setting para acceder a los atributos de la misma
 from django.conf import settings
 
-# aqui le indicamos la direccion de la vista
+# aqui le indicamos la direccion de la vista urls de las vista  (backend)
 urlpatterns = [
     path('', core_views.home, name="Inicio"),
     path('about-me/', core_views.about, name="About"),
@@ -39,7 +39,7 @@ urlpatterns = [
 # He importara la urls estaticas de media y lo almacena en una lista "urlpatterns"
 if settings.DEBUG:
     from django.conf.urls.static import static
-    # Umk,l.ñ-¨¨n nuevo patron la raiz donde son las url static que definimos en settings.py
+    # Nuevo patron la raiz donde son las url static que definimos en settings.py
 
     # De webpersonal (la raiz del proyecto)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

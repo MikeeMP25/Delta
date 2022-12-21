@@ -3,6 +3,7 @@ from django.db import models
 
 # Create your models here.
 class Coorporation(models.Model):
+
     rfc = models.IntegerField(verbose_name="RFC", primary_key=False)
     # aplica la regla de la base de datos cadena varhcar debe tener un limite de caracteres
     name_company = models.CharField(verbose_name="Nombre compañia", max_length=100, null=False)
