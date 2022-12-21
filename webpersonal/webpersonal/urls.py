@@ -19,8 +19,10 @@ from django.contrib import admin
 from django.urls import path
 from core import views as core_views
 from portfolio import views as portfolio_views
+from contact import views as contact_views
+from company import views as company_views
 
-# vamos a configurar a django de forma directa para que cargue la imagen
+# aqui instanciamos la clase setting para acceder a los atributos de la misma
 from django.conf import settings
 
 # aqui le indicamos la direccion de la vista
@@ -28,10 +30,16 @@ urlpatterns = [
     path('', core_views.home, name="Inicio"),
     path('about-me/', core_views.about, name="About"),
     path('portfolio/', portfolio_views.portfolio, name="Portafolio"),
-    path('contact/', core_views.contact, name="Contacto"),
+    path('contact/', contact_views.contact, name="Contacto"),
+    path('company/', company_views.company, name="Coorporaciones"),
     path('admin/', admin.site.urls),
 ]
 
+# Esto es una configuracion extra siempre y cuando la variable debug este true
+# He importara la urls estaticas de media y lo almacena en una lista "urlpatterns"
 if settings.DEBUG:
     from django.conf.urls.static import static
+    # Umk,l.ñ-¨¨n nuevo patron la raiz donde son las url static que definimos en settings.py
+
+    # De webpersonal (la raiz del proyecto)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

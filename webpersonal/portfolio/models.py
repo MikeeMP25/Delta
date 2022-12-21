@@ -13,7 +13,7 @@ class Project(models.Model):
     # Este se ejecuta solo una vez cuando se crea la fecha actual
     created = models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación")
     updated = models.DateTimeField(auto_now=True, verbose_name="Fecha de actualización")
-    description = models.TextField(verbose_name="Descripción")
+    description = models.TextField(verbose_name="Descripción", null=True, blank=True)
 
     # Este obtiene la fecha de cuando se actualizo este registro
 

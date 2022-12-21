@@ -29,7 +29,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 # app de django
 # cargamos la nueva app core y nos abre los puertos html
@@ -42,8 +41,11 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'portfolio.apps.PortfolioConfig',
+    'contact.apps.ContactConfig',
+    'company.apps.CompanyConfig',
 ]
-#portfolio una configuracion extendida desde apps.py
+# portfolio una configuracion extendida desde apps.py
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -77,7 +79,7 @@ WSGI_APPLICATION = 'webpersonal.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
-#configuracion de la BD en sqlite
+# configuracion de la BD en sqlite
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -122,8 +124,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-# los ficheros media archivos que ingresa el usuario
-
+# Estos atributos cargan la direccion de la url del fichero de las imagenes ingresadas por el usuario y archivos media
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 

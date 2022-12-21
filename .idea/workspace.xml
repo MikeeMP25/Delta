@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbb8285c-a89b-4cae-9cd2-3866e6b07712" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Delta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Delta.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpersonal/company/templates/company/company.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpersonal/core/static/core/img/arboles.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpersonal/core/static/core/img/camino.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpersonal/core/static/core/img/luces.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpersonal/core/static/core/img/vista.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/core/templates/core/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/portfolio/templates/portfolio/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/core/static/core/img/avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/core/templates/core/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/core/templates/core/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/core/templates/core/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/contact/templates/contact/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/core/templates/core/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpersonal/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/core/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpersonal/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/portfolio/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/portfolio/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpersonal/portfolio/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/portfolio/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpersonal/portfolio/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/portfolio/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/portfolio/templates/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/portfolio/templates/portfolio/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpersonal/webpersonal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/webpersonal/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpersonal/webpersonal/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/webpersonal/urls.py" afterDir="false" />
     </list>
@@ -49,6 +56,7 @@
       <recent name="$PROJECT_DIR$/webpersonal/core/migrations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/webpersonal/contact/templates/contact" />
       <recent name="$PROJECT_DIR$/webpersonal/portfolio/templates/portfolio" />
     </key>
   </component>
@@ -72,6 +80,12 @@
       <workItem from="1671212861739" duration="3452000" />
       <workItem from="1671217088620" duration="1772000" />
       <workItem from="1671238987469" duration="18000" />
+      <workItem from="1671476266751" duration="14141000" />
+      <workItem from="1671549429878" duration="7957000" />
+      <workItem from="1671561754113" duration="6707000" />
+      <workItem from="1671576357618" duration="3935000" />
+      <workItem from="1671581641529" duration="911000" />
+      <workItem from="1671582639357" duration="157000" />
     </task>
     <servers />
   </component>

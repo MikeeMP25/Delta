@@ -2,22 +2,27 @@
 
 {% block title %}Acerca de{% endblock %}
 
-{% block background %}{% load static %}{% static 'core/img/about-bg.jpg' %}{% endblock %}
+{% block background %}{% load static %}{% static 'core/img/arboles.jpeg' %}{% endblock %}
 
 {% block headers%}
-<h1>Acerca de</h1>
-<span class="subheading">Biografía</span>
+<h1>Naturaleza Buena-Vista</h1>
+<span class="subheading">"Desconectate del la tecnología por un momento"</span>
 {% endblock %}
 
 {% block content %}
 <div class="row">
     <div class="col-lg-3 col-md-4 offset-lg-1" >
-        <img class="img-fluid avatar" src="{% static 'core/img/avatar.jpg' %}" alt="">
+        <img class="img-fluid avatar" src="{% static 'core/img/camino.jpeg' %}" alt="">
     </div>
     <div class="col-lg-7 col-md-8" >
-        <h2 class="section-heading">Jesus Miranda</h2>
-        <p>Nacido en CDMX lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit...</p>
+        <h2 class="section-heading">Acerca de ...</h2>
+        <p>Nos dedicamos al entretenimiento en un ambiente rural rodeados de naturaleza en el bosque de Alta-Lucia. </p>
+        <p>"Ven y conocenos"</p>
+    </div>
+    <div class="col-lg-8 col-md-12 align-content-center"  >
+        <h2 class="section-heading ">Ubicación</h2>
+        <img src="{% static 'core/img/about-bg.jpg' %}" alt="" width="1000" height="500" title="Ubicacion">
+        <p class="align-content-center">"Te esperamos"</p>
     </div>
 </div>
 {% endblock %}

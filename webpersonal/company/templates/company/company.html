@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Patrocinadores{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/portfolio-bg.jpg' %}{% endblock %}
+
+{% block headers%}
+   <h1>Patrocinadores del eventos </h1>
+   <h2 class="subheading">Lista de Patrocinios</h2>
+{% endblock %}
+
+<!--
+aqui construimos el html de portfolio junto con los argumentos de entrada
+ QuerySET
+-->
+
+{% block content %}
+    {%  for company in organizaciones %}
+    <!--Proyectos que ai en la base de datos y lo mostramos en la lista -->
+	<div class="row project">
+		<div class="col-lg-3 col-md-4 offset-lg-1">
+			      <img class="img-fluid" src="{{ company.logo.url }}" alt="">
+		</div>
+		<div class="col-lg-7 col-md-8">
+	      		<h2 class="section-heading title">{{ company.name_company }}</h2>
+	          <p>{{ company.address }}</p>
+		</div>
+	</div>
+	{% endfor %}
+{% endblock %}

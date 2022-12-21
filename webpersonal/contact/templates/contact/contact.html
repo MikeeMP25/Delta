@@ -1,0 +1,28 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Personal{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/contact-bg.jpg' %}{% endblock %}
+
+{% block headers%}
+    <h1>Personal</h1>
+    <span class="subheading">Lista de empleados </span>
+{% endblock %}
+
+
+{% block content%}
+    {% for datos in personas %}
+    <div class="row project">
+		<div class="col-lg-3 col-md-4 offset-lg-1">
+			      <img class="img-fluid" src="{{ datos.photo.url }}" alt="">
+		</div>
+		<div class="col-lg-7 col-md-8">
+            <p><b>Nombre completo:</b> {{ datos.name_complet }}</p>
+            <p><b>Domicilio actual:</b> {{ datos.adreess }}</p>
+            <p><b>Numero de celular:</b> {{ datos.cellphont }}</p>
+            <p><b>Correo Electronico:</b> {{ datos.e_mail }}</p>
+            <p><b>Fecha de nacimiento:</b> {{ datos.date_of_birth }}</p>
+		</div>
+	</div>
+    {% endfor %}
+{% endblock %}
