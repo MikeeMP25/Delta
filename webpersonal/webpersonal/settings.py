@@ -13,6 +13,7 @@ import os.path
 # El settings.py contiene la configuracion del proyecto
 from pathlib import Path
 
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -110,6 +111,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
+# com = locale.setlocale(locale.LC_ALL, 'ja-JA')
+# print(com)
 LANGUAGE_CODE = 'es'
 
 TIME_ZONE = 'UTC'

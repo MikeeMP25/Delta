@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bbb8285c-a89b-4cae-9cd2-3866e6b07712" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/webpersonal/core/static/core/img/contacto.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpersonal/core/static/core/img/evento.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpersonal/core/static/core/img/logos.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Delta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Delta.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/company/templates/company/company.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/company/templates/company/company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/contact/templates/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/contact/templates/contact/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/core/templates/core/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/core/templates/core/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/portfolio/templates/portfolio/portfolio.html" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/portfolio/templates/portfolio/portfolio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpersonal/webpersonal/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/webpersonal/webpersonal/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,15 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/Desarrollo/Devolopment/python/pokemon/Delta/webpersonal/core/static/core/img",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webpersonal/core/static/core/img" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/webpersonal/core/static/core/img" />
@@ -74,6 +88,13 @@
       <workItem from="1671647538965" duration="510000" />
       <workItem from="1671649179463" duration="116000" />
       <workItem from="1671653704747" duration="307000" />
+      <workItem from="1673545846972" duration="8000" />
+      <workItem from="1673883556823" duration="409000" />
+      <workItem from="1674072490050" duration="2215000" />
+      <workItem from="1674581278902" duration="4724000" />
+      <workItem from="1674605432581" duration="618000" />
+      <workItem from="1674748707267" duration="4662000" />
+      <workItem from="1674759641741" duration="424000" />
     </task>
     <servers />
   </component>
@@ -90,5 +111,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
